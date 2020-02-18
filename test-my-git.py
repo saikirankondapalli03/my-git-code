@@ -1,6 +1,6 @@
 import unittest
 import requests
-from TestTriangle import get_user_git_data
+from my-git import get_user_git_data
 
 class TestMyGitData(unittest.TestCase):
 
