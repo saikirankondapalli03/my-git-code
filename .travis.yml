@@ -6,4 +6,4 @@ install:
  - pip install requests 
 # command to run tests
 script:
- - python -m unittest test-my-git
+ - python -m unittest test-my-git.py
