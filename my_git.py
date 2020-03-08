@@ -2,7 +2,8 @@ import requests
 import json
 
 def get_user_git_data(user_name):
-    response = requests.get(f"https://api.github.com/users/{user_name}/repos")
+    urls= f"https://api.github.com/users/{user_name}/repos"
+    response = requests.get(urls)
     status_code=response.status_code;
     if status_code ==403:
         return "Forbidden"
