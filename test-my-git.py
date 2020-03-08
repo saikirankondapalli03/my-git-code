@@ -19,7 +19,7 @@ class TestMyGitData(unittest.TestCase):
                'Repository: gedcom_Agile has 30 number of commits', 
                'Repository: HW-05-01 has 2 number of commits', 
                'Repository: HW09 has 2 number of commits', 
-               'Repository: my-git-code has 8 number of commits', 
+               'Repository: my-git-code has 11 number of commits', 
                'Repository: Node-Angular2Example has 3 number of commits', 
                'Repository: PlanPackRepeat has 30 number of commits', 
                'Repository: planpackrepeat-backend has 30 number of commits', 
